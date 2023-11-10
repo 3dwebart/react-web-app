@@ -1,0 +1,6 @@
+[
+    { "idx":1, "img":"data/img/01.webp", "alt":"sample 1" },
+    { "idx":2, "img":"data/img/02.webp", "alt":"sample 2+-" },
+    { "idx":3, "img":"data/img/03.webp", "alt":"sample 3" },
+    { "idx":4, "img":"data/img/04.webp", "alt":"sample 4" }
+]

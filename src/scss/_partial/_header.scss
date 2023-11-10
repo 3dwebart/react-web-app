@@ -1,0 +1,37 @@
+header {
+    display: inline-flex;
+    position: absolute;
+    color: $white;
+    margin: 0 auto;
+    top: ppr(32);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    .nav {
+        border: 0;
+        background-color: $white;
+        width: ppr(24);
+        height: ppr(24);
+        border-radius: ppr(12);
+        text-align: center;
+        overflow: hidden;
+        text-indent: -999px;
+        color: transparent;
+        position: relative;
+        // &:before, &:after {
+        //     content: "";
+        //     background-color: #333333;
+        //     width: ppr(1);
+        //     height: ppr(16);
+        //     position: absolute;
+        //     top: 50%;
+        //     left: 50%;
+        // }
+        // &:before {
+        //     transform: translate(-50%, -50%) rotate(45deg);
+        // }
+        // &:after {
+        //     transform: translate(-50%, -50%) rotate(-45deg);
+        // }
+    }
+}

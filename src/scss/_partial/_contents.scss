@@ -1,0 +1,22 @@
+.title {
+    position: relative;
+    padding-left: ppr(30);
+    margin-top: ppr(20);
+    &::before, &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: ppr(20);
+    }
+    &::before {
+        width: ppr(10);
+        background-color: #3e2f81;
+        left: 0;
+    }
+    &::after {
+        width: ppr(5);
+        background-color: #7163ac;
+        left: ppr(10);
+    }
+}
